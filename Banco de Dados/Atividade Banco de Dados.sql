@@ -3,7 +3,7 @@
 create database db_inf;
 use db_inf;
 
--- determine 5 atributos revelantes dos colaborador para se trabalhar com o serviço deste RH
+-- Determine 5 atributos revelantes dos colaboradores para se trabalhar com o serviço deste RH
 
 create table tb_info(
 	id bigint auto_increment,
