@@ -34,6 +34,7 @@ create table tb_categoria(
     primary key (id_categoria)
 );
 
+
 insert into tb_categoria (categoria)
 values ("Beleza");
 
