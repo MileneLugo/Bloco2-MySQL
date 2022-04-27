@@ -454,11 +454,11 @@ create table tb_produtos(
     
     select * from tb_cursos where preço > 500;
 
-	select * from tb_cursos where preço > 600 and preço < 1000;
+    select * from tb_cursos where preço > 600 and preço < 1000;
 
-	select * from tb_cursos where nome like "%J%";
+    select * from tb_cursos where nome like "%J%";
 
-	select * from tb_cursos inner join tb_categorias on tb_categorias.id = tb_cursos.categorias_id;
+    select * from tb_cursos inner join tb_categorias on tb_categorias.id = tb_cursos.categorias_id;
 
-	select * from tb_cursos inner join tb_categorias on tb_categorias.id = tb_cursos.categorias_id where categorias_id = 4; 
+    select * from tb_cursos inner join tb_categorias on tb_categorias.id = tb_cursos.categorias_id where categorias_id = 4; 
     
