@@ -13,8 +13,8 @@ create table tb_classes(
 
 create table tb_personagens(
 	id bigint auto_increment,
-	classes_id bigint,
-	arma boolean,
+    classes_id bigint,
+    arma boolean,
     defesa decimal(65),
     ataque decimal (65),
     
@@ -379,13 +379,13 @@ create table tb_produtos(
     
     select * from tb_produtos where valor > 100;
 
-	select * from tb_produtos where valor > 70 and valor < 150;
+    select * from tb_produtos where valor > 70 and valor < 150;
 
-	select * from tb_produtos where nome like "%c%";
+    select * from tb_produtos where nome like "%c%";
 
-	select * from tb_produtos inner join tb_categorias on tb_categorias.id = tb_produtos.categorias_id;
+    select * from tb_produtos inner join tb_categorias on tb_categorias.id = tb_produtos.categorias_id;
 
-	select * from tb_produtos inner join tb_categorias on tb_categorias.id = tb_produtos.categorias_id where possui_estoque = false;
+     select * from tb_produtos inner join tb_categorias on tb_categorias.id = tb_produtos.categorias_id where possui_estoque = false;
     
     
     -- Atividade 6
